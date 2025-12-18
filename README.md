@@ -20,17 +20,7 @@ pip install -r requirements.txt
 
 ## Ejecución
 
-Ejecuta el script con el siguiente comando
+Ejecuta el script con el siguiente comando:
 
 ```bash
 python pruba_tecnica.py yellow_tripdata_2022-07.parquet
-
-## Archivos generados
-
-El script genera los siguientes archivos:
-
-- 'ultima_ubicacion.csv'
-   Contiene la última ubicación conocida de cada vehículo, basada en el 'tpep_pickupc_datetime'.
-
-- 'viajes_por_hora.csv'
-   Contiene el total de viajes iniciados por cada hora del dia (0 a 23).
